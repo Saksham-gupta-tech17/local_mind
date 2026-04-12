@@ -1,0 +1,59 @@
+:root {
+  --bg-color: #f3f4f6;
+  --surface-color: #ffffff;
+  --surface-hover: #f9fafb;
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --accent-color: #6366f1;
+  --accent-hover: #4f46e5;
+  --border-color: #e5e7eb;
+  
+  --user-msg-bg: #6366f1;
+  --user-msg-text: #ffffff;
+  --bot-msg-bg: #ffffff;
+  --bot-msg-text: #111827;
+  --bot-msg-border: #e5e7eb;
+
+  --error-color: #ef4444;
+  --success-color: #10b981;
+
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: var(--text-primary);
+  background-color: var(--bg-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+}
+
+#root {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  color: var(--text-primary);
+}
+
+p {
+  margin-top: 0;
+}
